@@ -1,14 +1,43 @@
 h1 {
+  display: flex;
   font-size: xx-large;
   color: orange;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: nowrap;
 }
 html {
   font-family: 'Nunito', sans-serif;
 }
 @media (min-width: 1000px) {
   h1 {
+    display: flex;
     font-size: xxx-large;
     color: orange;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: nowrap;
   }
 }
+h2 {
+  font-size: xxx-large;
+}
+section{
+  width: 70px;
+}
+section > div {
+  width: 100%;
+}
+button {     
+  margin-top: 10px;    
+  border-radius: 0 15px 15px 15px;     
+  padding: 12px;     
+  background-color: orange;     
+  font-weight: bolder;    
+  font-size: 15px;     
+  color: white;     
+  border: none;     
+  align-self: flex-end;   
+}
+
 
